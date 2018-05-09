@@ -1,0 +1,211 @@
+
+<!DOCTYPE html>
+<html class="bg" style="overflow:hidden">
+
+<head>
+	<meta charset="UTF-8">
+	<title>牡丹公馆</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<meta name="apple-touch-fullscreen" content="YES" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Expires" content="-1" />
+	<meta http-equiv="pragram" content="no-cache" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<link rel="stylesheet" href="style/reset.css">
+	<link rel="stylesheet" href="style/style.css">
+	<script>
+		var browser = {
+			versions: function () {
+				var u = navigator.userAgent,
+					app = navigator.appVersion;
+				return {
+					webKit: u.indexOf('AppleWebKit') > -1,
+					ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
+					android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
+					weixin: u.indexOf('MicroMessenger') > -1,
+					txnews: u.indexOf('qqnews') > -1,
+					sinawb: u.indexOf('weibo') > -1,
+					mqq: u.indexOf('QQ') > -1
+				};
+			}(),
+			language: (navigator.browserLanguage || navigator.language).toLowerCase()
+		};
+		if(sessionStorage.lastname == "Smith"){
+
+		}else{
+			sessionStorage.lastname="Smith";
+			location.reload();
+		}
+	</script>
+
+	<script src="js/jquery-1.8.2.js"></script>
+	<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script type="text/javascript" src="http://wx.juzhen.net/wxlib/matrix_wechat_autho.js"></script>
+
+<!--
+  <script>
+		// 分享授权
+		jssdkConfig(null, false);
+		wx.ready(function () {
+			wxShare({
+			title: '「幸福」之后，「美好」前行',
+			desc: '2018，牡丹公馆',
+			link: 'http://biguiyuan.juzhen01.com/2018/lnbhy0319/index.shtml',
+			imgUrl: 'http://biguiyuan.juzhen01.com/2018/lnbhy0319/images/share.jpg'
+			})
+		});
+    --
+	</script>
+-->
+	<!--<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+	<script src="http://weixin.juzhen.com/WebServices/matrix.weixin.share.2.1.js"></script>
+	<script>
+		var shareOpenID = "gh_e89dba73fb6f";
+		//分享
+		wx_share.config({
+	        state: shareOpenID,
+	        debug: false,
+	        img: "http://biguiyuan.juzhen01.com/2018/lnbhy0319/images/share.jpg",
+	        url: 'http://biguiyuan.juzhen01.com/2018/lnbhy0319/index.shtml',
+	        title: '「幸福」之后，「美好」前行',
+	        desc: '2018，碧桂园美好生活致辽宁'
+		});
+		wx_share.ready(function () {
+	        wx_share.onMenuShareTimeline({
+	            title: "「幸福」之后，「美好」前行", // 分享标题
+	            url: 'http://biguiyuan.juzhen01.com/2018/lnbhy0319/index.shtml',
+	            img: "http://biguiyuan.juzhen01.com/2018/lnbhy0319/images/share.jpg",
+	        });
+	    });
+	    //分享的成功后调用的方法
+	    wx_share.success(function () {
+	        //alert('分享成功！');
+	        seccussshare();
+	    });
+	    //分享的失败后调用的方法
+	    wx_share.cancel(function () {
+	        //alert('分享取消！');
+	    });
+    </script>-->
+
+	<script type="text/javascript" src="js/preloadjs-0.6.1.min.js"></script>
+
+</head>
+
+<body style="overflow:hidden">
+	<div id="loading" class="loading"></div>
+	<div class="video">
+		<div class="poster"></div>
+		<div class="poster1"></div>
+		<!--<div style="width: 50px; height: 50px; opacity: 0; position: fixed; z-index: 99999;"onclick="javascript:$('.poster2').show();video.pause();$('.video').fadeOut(1000);"></div>-->
+		<video id="v1" src="./video.mp4?v=111" x5-video-player-type="h5" x5-video-player-fullscreen="true" webkit-playsinline="true" playsinline="true" poster=""></video>
+	</div>
+	<div class="poster2">
+		<img src="images/2.jpg" width="100%" />
+	</div>
+</body>
+
+<script>
+	var video = document.querySelector('#v1');
+	//video.pause();
+	//预加载
+	var queue = new createjs.LoadQueue();
+	queue.on("progress", function (e) {
+		//加载中
+		//$('#loadNum').css("width",parseInt(e.progress * 100) + '%');
+	}, this);
+	queue.on("complete", function (e) {
+		//加载完成
+		$('#loading').delay(1000).fadeOut(800);
+		//videoJustify();
+	}, this);
+	queue.loadManifest([
+		'images/load1.jpg',
+		'images/load2.png',
+		'images/1.jpg',
+		'images/2.jpg',
+		'images/3.jpg',
+	]);
+
+/**============================================
+	                    视频
+	==============================================*/
+	function videoPlayInit() {
+		video.play();
+		video.muted=true;
+		//video.pause();
+	}
+	document.addEventListener('DOMContentLoaded', function () {
+		function videoAutoPlay() {
+			videoPlayInit();
+			document.addEventListener("WeixinJSBridgeReady", function () {
+				videoPlayInit();
+			}, false);
+		}
+		videoAutoPlay();
+	});
+
+
+
+
+	var disW = document.documentElement.clientWidth;
+	var disH = document.documentElement.clientHeight;
+	videoJustify();
+	function videoJustify() {
+		video.style.display = "block";
+		video.width = 640;
+		video.height = 1008;
+		var vwd = video.width / video.height;
+		var swd = disW / disH;
+		var scale = swd > vwd ? (disW / video.width) : (disH / video.height);
+		var disL = (disW - video.width * scale) / 2;
+		var disT = (disH - video.height * scale) / 2;
+		video.style.webkitTransformOrigin = "0 0";
+		video.style.webkitTransform = "scale(" + scale + ")" + "translate3d(" + disL + "px," + disT + "px,0)";
+		$('.poster')[0].style.webkitTransform = "scale(" + scale + ")" + "translate3d(" + disL + "px," + disT + "px,0)";
+		$('.poster1')[0].style.webkitTransform = "scale(" + scale + ")" + "translate3d(" + disL + "px," + disT + "px,0)";
+		$('.poster2')[0].style.webkitTransform = "scale(" + scale + ")" + "translate3d(" + disL + "px," + disT + "px,0)";
+
+		video.addEventListener('ended', function () {
+			$('.poster2').show();
+			$('.video').hide();
+		}, false);
+		if (browser.versions.ios) {
+			$('.poster').show();
+			setTimeout(function(){
+				video.pause();
+				video.currentTime = 0.0;
+				video.muted=false;
+				$('.poster').stop(true,true).delay(500).fadeOut(800,function(){
+					video.currentTime = 0.0;
+					video.play();
+				});
+			},3000)
+		}else {
+			$('.poster1').show();
+			$('.poster1').on('touchend', function () {
+				video.currentTime = 0.0;
+				video.play();
+				$('.poster1').stop(true,true).delay(500).fadeOut(800,function(){
+					video.muted=false;
+				});
+			})
+		}
+	};
+</script>
+<script>
+	// 腾讯流量统计
+	var _mtac = {};
+	(function () {
+	    var mta = document.createElement("script");
+	    mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.2";
+	    mta.setAttribute("name", "MTAH5");
+	    mta.setAttribute("sid", "500595188");
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(mta, s);
+	})();
+</script>
+</html>
