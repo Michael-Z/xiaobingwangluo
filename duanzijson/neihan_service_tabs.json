@@ -44,6 +44,26 @@
     },
     {
       "double_col_mode": false,
+      "umeng_event": "kanbao",
+      "is_default_tab": false,
+      "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
+      "list_id": -106,
+      "refresh_interval": 1800,
+      "type": 1,
+      "name": "看报"
+    },
+    {
+      "double_col_mode": false,
+      "umeng_event": "chuanyue",
+      "is_default_tab": false,
+      "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
+      "list_id": -107,
+      "refresh_interval": 1800,
+      "type": 1,
+      "name": "优品"
+    },
+    {
+      "double_col_mode": false,
       "umeng_event": "neihan",
       "is_default_tab": false,
       "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
@@ -61,16 +81,6 @@
       "refresh_interval": 1800,
       "type": 1,
       "name": "游戏"
-    },
-    {
-      "double_col_mode": false,
-      "umeng_event": "chuanyue",
-      "is_default_tab": false,
-      "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
-      "list_id": -107,
-      "refresh_interval": 1800,
-      "type": 1,
-      "name": "优品"
     }
   ]
 }
