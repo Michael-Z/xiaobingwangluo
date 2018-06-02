@@ -34,16 +34,6 @@
     },
     {
       "double_col_mode": false,
-      "umeng_event": "recommend",
-      "is_default_tab": true,
-      "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
-      "list_id": -101,
-      "refresh_interval": 1800,
-      "type": 1,
-      "name": "滴 滴滴"
-    },
-    {
-      "double_col_mode": false,
       "umeng_event": "game",
       "is_default_tab": false,
       "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
