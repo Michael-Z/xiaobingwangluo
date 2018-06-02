@@ -14,6 +14,16 @@
     },
     {
       "double_col_mode": false,
+      "umeng_event": "chuanyue",
+      "is_default_tab": false,
+      "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
+      "list_id": -107,
+      "refresh_interval": 1800,
+      "type": 1,
+      "name": "穿越"
+    },
+    {
+      "double_col_mode": false,
       "umeng_event": "duanzi",
       "is_default_tab": false,
       "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
@@ -61,6 +71,16 @@
       "refresh_interval": 1800,
       "type": 1,
       "name": "精华"
+    },
+    {
+      "double_col_mode": false,
+      "umeng_event": "chuanyue",
+      "is_default_tab": false,
+      "url": "http://lf.snssdk.com/neihan/stream/mix/v1/?content_type=-101",
+      "list_id": -107,
+      "refresh_interval": 1800,
+      "type": 1,
+      "name": "穿越"
     }
   ]
 }
