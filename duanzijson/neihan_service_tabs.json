@@ -3,7 +3,6 @@
 "message": "success",
 "data": [
     {
-      "double_col_mode": false,
       "umeng_event": "jinghua",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_101.json",
       "list_id": -106,
@@ -12,7 +11,6 @@
       "name": "精华"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "duanzi",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_102.json",
       "list_id": -102,
@@ -21,7 +19,6 @@
       "name": "段子"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "picture",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_103.json",
       "list_id": -103,
@@ -30,7 +27,6 @@
       "name": "图片"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "video",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_104.json",
       "list_id": -104,
@@ -39,7 +35,6 @@
       "name": "视频"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "kanbao",
       "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_105.json",
@@ -49,7 +44,6 @@
       "name": "看报"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "chuanyue",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_106.json",
       "list_id": -107,
@@ -58,7 +52,6 @@
       "name": "优品"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "neihan",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_107.json",
       "list_id": -106,
@@ -67,7 +60,6 @@
       "name": "小说"
     },
     {
-      "double_col_mode": false,
       "umeng_event": "game",
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_108.json",
       "list_id": -105,
