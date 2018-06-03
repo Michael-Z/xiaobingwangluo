@@ -5,7 +5,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "jinghua",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_101.json",
       "list_id": -106,
       "refresh_interval": 1800,
@@ -15,7 +14,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "duanzi",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_102.json",
       "list_id": -102,
       "refresh_interval": 1800,
@@ -25,7 +23,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "picture",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_103.json",
       "list_id": -103,
       "refresh_interval": 1800,
@@ -35,7 +32,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "video",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_104.json",
       "list_id": -104,
       "refresh_interval": 1800,
@@ -55,7 +51,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "chuanyue",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_106.json",
       "list_id": -107,
       "refresh_interval": 1800,
@@ -65,7 +60,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "neihan",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_107.json",
       "list_id": -106,
       "refresh_interval": 1800,
@@ -75,7 +69,6 @@
     {
       "double_col_mode": false,
       "umeng_event": "game",
-      "is_default_tab": false,
       "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_108.json",
       "list_id": -105,
       "refresh_interval": 1800,
