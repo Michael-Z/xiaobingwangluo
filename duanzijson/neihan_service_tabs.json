@@ -37,10 +37,10 @@
     {
       "umeng_event": "kanbao",
       "is_default_tab": false,
-      "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_105.json",
+      "url": "http://news.163.com/",
       "list_id": -106,
       "refresh_interval": 1800,
-      "type": 1,
+      "type": 2,
       "name": "看报"
     },
     {
