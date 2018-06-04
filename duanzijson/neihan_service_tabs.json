@@ -48,7 +48,7 @@
       "url": "http://you.163.com/",
       "list_id": -107,
       "refresh_interval": 1800,
-      "type": 1,
+      "type": 2,
       "name": "优品"
     },
     {
@@ -56,7 +56,7 @@
       "url": "http://www.qidian.com/",
       "list_id": -106,
       "refresh_interval": 1800,
-      "type": 1,
+      "type": 2,
       "name": "小说"
     },
     {
@@ -64,7 +64,7 @@
       "url": "http://www.4399.cn/",
       "list_id": -107,
       "refresh_interval": 1800,
-      "type": 1,
+      "type": 2,
       "name": "游戏"
     }
   ]
