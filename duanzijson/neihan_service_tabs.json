@@ -45,7 +45,7 @@
     },
     {
       "umeng_event": "chuanyue",
-      "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_106.json",
+      "url": "http://you.163.com/",
       "list_id": -107,
       "refresh_interval": 1800,
       "type": 1,
@@ -53,7 +53,7 @@
     },
     {
       "umeng_event": "neihan",
-      "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_107.json",
+      "url": "https://www.qidian.com/",
       "list_id": -106,
       "refresh_interval": 1800,
       "type": 1,
@@ -61,8 +61,8 @@
     },
     {
       "umeng_event": "game",
-      "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/neihan_stream_mix_108.json",
-      "list_id": -105,
+      "url": "http://www.4399.cn/",
+      "list_id": -107,
       "refresh_interval": 1800,
       "type": 1,
       "name": "游戏"
