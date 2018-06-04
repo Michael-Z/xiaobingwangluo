@@ -44,7 +44,7 @@
       "name": "看报"
     },
     {
-      "umeng_event": "chuanyue",
+      "umeng_event": "youppin",
       "url": "http://you.163.com/",
       "list_id": -107,
       "refresh_interval": 1800,
@@ -52,8 +52,8 @@
       "name": "优品"
     },
     {
-      "umeng_event": "neihan",
-      "url": "https://www.qidian.com/",
+      "umeng_event": "xiaoshuo",
+      "url": "http://www.qidian.com/",
       "list_id": -106,
       "refresh_interval": 1800,
       "type": 1,
