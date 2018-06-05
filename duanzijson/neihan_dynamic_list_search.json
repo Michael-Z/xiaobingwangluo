@@ -1,0 +1,156 @@
+{
+  "message" : "success",
+  "data" : [{
+      "group": {
+        "text": "",
+        "id": 93964816166,
+        "favorite_count": 0,
+        "go_detail_count": 0,
+        "user_favorite": 0,
+        "share_type": 0,
+        "is_can_share": 1,
+        "share_url": "http://m.neihanshequ.com/share/group/93964816166/?iid=0&app=joke_essay",
+        "label": 4,
+        "content": "",
+        "comment_count": 0,
+        "id_str": "93964816166",
+        "media_type": 1,
+        "share_count": 0,
+        "type": 3,
+        "status": 100,
+        "has_comments": 0,
+        "large_image": {
+          "width": 750,
+          "r_height": 665,
+          "r_width": 640,
+          "url_list": [{
+            "url": "http://p3.pstatp.com/large/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb9.pstatp.com/large/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb1.pstatp.com/large/7b2a0000b9c854d3a55f"
+          }],
+          "uri": "large/7b2a0000b9c854d3a55f",
+          "height": 779
+        },
+        "user_bury": 0,
+        "status_desc": "已发表",
+        "user_digg": 0,
+        "online_time": 1523370116,
+        "bury_count": 0,
+        "is_anonymous": false,
+        "repin_count": 0,
+        "digg_count": 0,
+        "has_hot_comments": 0,
+        "create_time": 1523370116,
+        "user_repin": 0,
+        "group_id": 93964816166,
+        "middle_image": {
+          "width": 202,
+          "r_height": 209,
+          "r_width": 202,
+          "url_list": [{
+            "url": "http://p3.pstatp.com/w202/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb9.pstatp.com/w202/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f"
+          }],
+          "uri": "w202/7b2a0000b9c854d3a55f",
+          "height": 209
+        },
+        "user": {
+          "user_id": 20396,
+          "name": "关注用户的动态1",
+          "followings": 0,
+          "user_verified": true,
+          "ugc_count": 241,
+          "avatar_url": "http://p.pstatp.com/obj/7bcf00024e4d805e0c48",
+          "followers": 1470277,
+          "is_following": false,
+          "is_pro_user": true
+        }
+      },
+      "comments": [],
+      "type": 1,
+      "display_time": 1527960628.0,
+      "online_time": 1527960628.0
+    },
+
+    {
+      "group": {
+        "text": "",
+        "id": 93964816166,
+        "favorite_count": 0,
+        "go_detail_count": 0,
+        "user_favorite": 0,
+        "share_type": 0,
+        "is_can_share": 1,
+        "share_url": "http://m.neihanshequ.com/share/group/93964816166/?iid=0&app=joke_essay",
+        "label": 4,
+        "content": "",
+        "comment_count": 0,
+        "id_str": "93964816166",
+        "media_type": 1,
+        "share_count": 0,
+        "type": 3,
+        "status": 100,
+        "has_comments": 0,
+        "large_image": {
+          "width": 750,
+          "r_height": 665,
+          "r_width": 640,
+          "url_list": [{
+            "url": "http://p3.pstatp.com/large/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb9.pstatp.com/large/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb1.pstatp.com/large/7b2a0000b9c854d3a55f"
+          }],
+          "uri": "large/7b2a0000b9c854d3a55f",
+          "height": 779
+        },
+        "user_bury": 0,
+        "status_desc": "已发表",
+        "user_digg": 0,
+        "online_time": 1523370116,
+        "bury_count": 0,
+        "is_anonymous": false,
+        "repin_count": 0,
+        "digg_count": 0,
+        "has_hot_comments": 0,
+        "create_time": 1523370116,
+        "user_repin": 0,
+        "group_id": 93964816166,
+        "middle_image": {
+          "width": 202,
+          "r_height": 209,
+          "r_width": 202,
+          "url_list": [{
+            "url": "http://p3.pstatp.com/w202/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb9.pstatp.com/w202/7b2a0000b9c854d3a55f"
+          }, {
+            "url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f"
+          }],
+          "uri": "w202/7b2a0000b9c854d3a55f",
+          "height": 209
+        },
+        "user": {
+          "user_id": 20396,
+          "name": "关注用户的动态2",
+          "followings": 0,
+          "user_verified": true,
+          "ugc_count": 241,
+          "avatar_url": "http://p.pstatp.com/obj/7bcf00024e4d805e0c48",
+          "followers": 1470277,
+          "is_following": false,
+          "is_pro_user": true
+        }
+      },
+      "comments": [],
+      "type": 1,
+      "display_time": 1527960628.0,
+      "online_time": 1527960628.0
+    }]
+}
