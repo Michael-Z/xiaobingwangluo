@@ -2,7 +2,6 @@
 	"message": "success",
 	"data":[{
 			"text":[{
-				"group": {
 					"text": "",
 					"id": 93964816166,
 					"favorite_count": 0,
@@ -70,15 +69,13 @@
 						"followers": 1470277,
 						"is_following": false,
 						"is_pro_user": true
-					}
-				},
+					},
 				"comments": [],
 				"type": 1,
 				"display_time": 1527960628.0,
 				"online_time": 1527960628.0
 			},
 			{
-				"group": {
 					"text": "",
 					"id": 93964816166,
 					"favorite_count": 0,
@@ -146,15 +143,13 @@
 						"followers": 1470277,
 						"is_following": false,
 						"is_pro_user": true
-					}
-				},
+				   },
 				"comments": [],
 				"type": 1,
 				"display_time": 1527960628.0,
 				"online_time": 1527960628.0
 			}],
 			"image" : [{
-					"group": {
 						"text": "",
 						"id": 93964816166,
 						"favorite_count": 0,
@@ -222,15 +217,13 @@
 							"followers": 1470277,
 							"is_following": false,
 							"is_pro_user": true
-						}
-					},
+					  },
 					"comments": [],
 					"type": 1,
 					"display_time": 1527960628.0,
 					"online_time": 1527960628.0
 				}],
 				"video" : [{
-						"group": {
 							"text": "",
 							"id": 93964816166,
 							"favorite_count": 0,
@@ -298,8 +291,7 @@
 								"followers": 1470277,
 								"is_following": false,
 								"is_pro_user": true
-							}
-						},
+						  },
 						"comments": [],
 						"type": 1,
 						"display_time": 1527960628.0,
