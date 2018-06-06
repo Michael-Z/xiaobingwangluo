@@ -2,7 +2,7 @@
 	"message": "success",
 	"data": [{
     "name":"电影",
-    "icno":"",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -12,7 +12,7 @@
   },
   {
     "name":"电影",
-    "icno":"",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -22,7 +22,7 @@
   },
   {
     "name":"电影",
-    "icno":"",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -32,7 +32,7 @@
   },
   {
     "name":"电影",
-    "icno":"",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -42,7 +42,7 @@
   },
   {
     "name":"电影",
-    "icno":"",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -51,20 +51,20 @@
     "allow_multi_image":1
   },
   {
-    "name":"电影",
-    "icno":"",
+    "name":"动态图",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
-    "ID":1,
+    "ID":2,
     "allow_gif":1,
-    "allow_video":1,
+    "allow_video":0,
     "allow_text":1,
     "allow_multi_image":1
   },
   {
-    "name":"电影",
-    "icno":"",
+    "name":"趣事",
+    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
-    "ID":1,
+    "ID":3,
     "allow_gif":1,
     "allow_video":1,
     "allow_text":1,
