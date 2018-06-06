@@ -2,7 +2,7 @@
 	"message": "success",
 	"data": [{
     "name":"电影",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -12,7 +12,7 @@
   },
   {
     "name":"电影",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -22,7 +22,7 @@
   },
   {
     "name":"电影",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -32,7 +32,7 @@
   },
   {
     "name":"电影",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -42,7 +42,7 @@
   },
   {
     "name":"电影",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":1,
     "allow_gif":1,
@@ -52,7 +52,7 @@
   },
   {
     "name":"动态图",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":2,
     "allow_gif":1,
@@ -62,7 +62,7 @@
   },
   {
     "name":"趣事",
-    "icno":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+    "icon":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
     "subscribe_count":9999,
     "ID":3,
     "allow_gif":1,
