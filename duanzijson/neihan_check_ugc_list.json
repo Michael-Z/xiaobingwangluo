@@ -1,247 +1,173 @@
 {
 	"message": "success",
 	"data": [{
-     "group":{
-        "text": "text---text---text---text---text---text---",
-        "share_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-        "category_name":"category_name",
-        "status_desc":"desc",
-        "content":"content",
-        "m3u8_url":"m3u8_url",
-        "cover_image_url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-        "category_id": 100000,
-        "create_time": 1527960628.0,
-        "ID": 199999,
-        "favorite_count": 999,
-        "user_favorite": 888,
-        "share_type": 1,
-        "is_can_share": 1,
-        "category_type": 1,
-        "go_detail_count": 1,
-        "comment_count": 1000,
-        "label":99,
-        "share_count":88,
-        "id_str":1,
-        "media_type":1,
-        "type":1,
-        "status":1,
-        "thas_commentsype":1,
-        "user_bury":1,
-        "user_digg":1,
-        "bury_count":100,
-        "online_time":999,
-        "repin_count":888,
-        "digg_count": 888,
-        "has_hot_comments":1,
-        "user_repin":1,
-        "duration":1999,
-        "allow_dislike":1,
-        "category_visible":1,
-        "is_anonymous":0,
-        "is_multi_image":1,
-        "is_gif":0,
-        "has_comments":1,
-        "video_360P":{
-          "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "height":100,
-          "width":100,
-          "is_gif":0,
-          "url_list":[{
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            }]
-        },
-        "video_720P":{
-          "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "height":100,
-          "width":100,
-          "is_gif":0,
-          "url_list":[{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          },
-          {
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          }]
-        },
-        "video_480p":{
-          "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "height":100,
-          "width":100,
-          "is_gif":0,
-          "url_list":[{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          },
-          {
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          }]
-        },
-        "large_cover":{
-          "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "height":100,
-          "width":100,
-          "is_gif":0,
-          "url_list":[{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          },
-          {
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          }]
-        },
-        "medium_cover":{
-          "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "height":100,
-          "width":100,
-          "is_gif":0,
-          "url_list":[{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          },
-          {
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          }]
-        },
-        "origin_video":{
-          "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "height":100,
-          "width":100,
-          "is_gif":0,
-          "url_list":[{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          },
-          {
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          }]
-        },
-        "gifvideo":{
-          "video_360P":{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            "height":100,
-            "width":100,
-            "is_gif":0,
-            "url_list":[{
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            },
-            {
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            }]
-          },
-          "video_720P":{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            "height":100,
-            "width":100,
-            "is_gif":0,
-            "url_list":[{
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            },
-            {
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            }]
-          },
-          "video_480P":{
-            "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            "height":100,
-            "width":100,
-            "is_gif":0,
-            "url_list":[{
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            },
-            {
-              "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-            }]
-          },
+		"group": {
+			"text": "text---text---text---text---text---text---",
+			"share_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"category_name": "category_name",
+			"status_desc": "desc",
+			"content": "content",
+			"m3u8_url": "m3u8_url",
+			"cover_image_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"category_id": 100000,
+			"create_time": 1527960628.0,
+			"ID": 199999,
+			"favorite_count": 999,
+			"user_favorite": 888,
+			"share_type": 1,
+			"is_can_share": 1,
+			"category_type": 1,
+			"go_detail_count": 1,
+			"comment_count": 1000,
+			"label": 99,
+			"share_count": 88,
+			"id_str": 1,
+			"media_type": 1,
+			"type": 1,
+			"status": 1,
+			"thas_commentsype": 1,
+			"user_bury": 1,
+			"user_digg": 1,
+			"bury_count": 100,
+			"online_time": 999,
+			"repin_count": 888,
+			"digg_count": 888,
+			"has_hot_comments": 1,
+			"user_repin": 1,
+			"duration": 1999,
+			"allow_dislike": 1,
+			"category_visible": 1,
+			"is_anonymous": 0,
+			"is_multi_image": 1,
+			"is_gif": 0,
+			"has_comments": 1,
+			"video_360P": {
+				"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"height": 100,
+				"width": 100,
+				"is_gif": 0
 
-          "mp4_url":"www.baidu.com",
-          "cover_image_uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-          "video_height":100,
-          "duration":100,
-          "video_width":1000,
-        }
-     },
-     "large_image":{
-       "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       "height":100,
-       "width":100,
-       "is_gif":0,
-       "url_list":[{
-         "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       },
-       {
-         "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       }]
-     },
-     "middle_image":{
-       "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       "height":100,
-       "width":100,
-       "is_gif":0,
-       "url_list":[{
-         "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       },
-       {
-         "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-       }]
-     },
-     "dislike_reason":[{
-       "title":"dislike_tile",
-       "ID":1000,
-       "type":1
-     }],
-     "large_image_list":[{
-         "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         "height":100,
-         "width":100,
-         "is_gif":0,
-         "url_list":[{
-           "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         },
-         {
-           "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         }]
-     }],
-     "thumb_image_list":[{
-         "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         "uri":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         "height":100,
-         "width":100,
-         "is_gif":0,
-         "url_list":[{
-           "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         },
-         {
-           "url":"http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         }]
-     }],
-     "user":{
-         "user_id": 100000,
-         "create_time": 1527960628,
-         "repin_count": 10000,
-         "new_followers": 88888,
-         "user_verified": 0,
-         "notification_count": 7777,
-         "name": "name",
-         "point": 6666,
-         "ugc_count": 5555,
-         "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         "large_avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-         "subscribe_count": 555555,
-         "followers":444444,
-         "gender": 1,
-         "id": 232323,
-         "screen_name": "screen_name",
-         "followings": 1212,
-         "is_following": 1,
-         "comment_count": 88888,
-         "desc": "desc"
-     },
-  }]
+			},
+			"video_720P": {
+				"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"height": 100,
+				"width": 100,
+				"is_gif": 0
+			},
+			"video_480p": {
+				"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"height": 100,
+				"width": 100,
+				"is_gif": 0
+			},
+			"large_cover": {
+				"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"height": 100,
+				"width": 100,
+				"is_gif": 0
+			},
+			"medium_cover": {
+				"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"height": 100,
+				"width": 100,
+				"is_gif": 0
+			},
+			"origin_video": {
+				"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"height": 100,
+				"width": 100,
+				"is_gif": 0
+			},
+			"gifvideo": {
+				"video_360P": {
+					"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+					"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+					"height": 100,
+					"width": 100,
+					"is_gif": 0
+				},
+				"video_720P": {
+					"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+					"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+					"height": 100,
+					"width": 100,
+					"is_gif": 0
+				},
+				"video_480P": {
+					"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+					"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+					"height": 100,
+					"width": 100,
+					"is_gif": 0
+				},
+
+				"mp4_url": "www.baidu.com",
+				"cover_image_uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+				"video_height": 100,
+				"duration": 100,
+				"video_width": 1000
+			}
+		},
+		"large_image": {
+			"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"height": 100,
+			"width": 100,
+			"is_gif": 0
+		},
+		"middle_image": {
+			"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"height": 100,
+			"width": 100,
+			"is_gif": 0
+		},
+		"dislike_reason": [{
+			"title": "dislike_tile",
+			"ID": 1000,
+			"type": 1
+		}],
+		"large_image_list": [{
+			"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"height": 100,
+			"width": 100,
+			"is_gif": 0
+		}],
+		"thumb_image_list": [{
+			"url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"uri": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"height": 100,
+			"width": 100,
+			"is_gif": 0
+		}],
+		"user": {
+			"user_id": 100000,
+			"create_time": 1527960628,
+			"repin_count": 10000,
+			"new_followers": 88888,
+			"user_verified": 0,
+			"notification_count": 7777,
+			"name": "name",
+			"point": 6666,
+			"ugc_count": 5555,
+			"avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"large_avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+			"subscribe_count": 555555,
+			"followers": 444444,
+			"gender": 1,
+			"id": 232323,
+			"screen_name": "screen_name",
+			"followings": 1212,
+			"is_following": 1,
+			"comment_count": 88888,
+			"desc": "desc"
+		}
+	}]
 }
