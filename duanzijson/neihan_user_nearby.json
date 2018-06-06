@@ -1,53 +1,54 @@
 {
 	"message": "success",
-	"data": [{
-    "distance": 100000,
-    "screen_name": "kobe",
-    "user_id": 943893,
-    "desc": "my name is kobe",
-    "name": "name",
-    "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-    "gender": 1,
-    "last_update":1527960628
-  },
-  {
-    "distance": 100000,
-    "screen_name": "kobe",
-    "user_id": 943893,
-    "desc": "my name is kobe",
-    "name": "name",
-    "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-    "gender": 1,
-    "last_update":1527960628
-  },
-  {
-    "distance": 100000,
-    "screen_name": "kobe",
-    "user_id": 943893,
-    "desc": "my name is kobe",
-    "name": "name",
-    "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-    "gender": 1,
-    "last_update":1527960628
-  },
-  {
-    "distance": 100000,
-    "screen_name": "kobe",
-    "user_id": 943893,
-    "desc": "my name is kobe",
-    "name": "name",
-    "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-    "gender": 1,
-    "last_update":1527960628
-  },
-  {
-    "distance": 100000,
-    "screen_name": "kobe",
-    "user_id": 943893,
-    "desc": "my name is kobe",
-    "name": "name",
-    "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
-    "gender": 1,
-    "last_update":1527960628
-  }]
+	"data": {
+    "user_list":[{
+        "distance": 100000,
+        "screen_name": "kobe",
+        "user_id": 943893,
+        "desc": "my name is kobe",
+        "name": "name",
+        "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+        "gender": 1,
+        "last_update":1527960628
+      },
+      {
+        "distance": 100000,
+        "screen_name": "kobe",
+        "user_id": 943893,
+        "desc": "my name is kobe",
+        "name": "name",
+        "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+        "gender": 1,
+        "last_update":1527960628
+      },
+      {
+        "distance": 100000,
+        "screen_name": "kobe",
+        "user_id": 943893,
+        "desc": "my name is kobe",
+        "name": "name",
+        "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+        "gender": 1,
+        "last_update":1527960628
+      },
+      {
+        "distance": 100000,
+        "screen_name": "kobe",
+        "user_id": 943893,
+        "desc": "my name is kobe",
+        "name": "name",
+        "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+        "gender": 1,
+        "last_update":1527960628
+      },
+      {
+        "distance": 100000,
+        "screen_name": "kobe",
+        "user_id": 943893,
+        "desc": "my name is kobe",
+        "name": "name",
+        "avatar_url": "http://pb1.pstatp.com/w202/7b2a0000b9c854d3a55f",
+        "gender": 1,
+        "last_update":1527960628
+      }]
 }
