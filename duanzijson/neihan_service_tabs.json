@@ -52,6 +52,14 @@
       "name": "优品"
     },
     {
+      "umeng_event": "youppin1",
+      "url": "https://michael-z.github.io/xiaobingwangluo/duanzijson/vue-tantan-stack-2.0/index.html",
+      "list_id": -107,
+      "refresh_interval": 1800,
+      "type": 2,
+      "name": "优品1"
+    },
+    {
       "umeng_event": "xiaoshuo",
       "url": "http://www.qidian.com/",
       "list_id": -106,
