@@ -1,0 +1,17 @@
+{
+data: {
+appId: "wx253a3264ed268ca8",
+debug: false,
+jsApiList: [
+"onMenuShareTimeline",
+"onMenuShareAppMessage",
+"onMenuShareQQ",
+"onMenuShareWeibo",
+"onMenuShareQZone"
+],
+nonceStr: "4804d418a28f45e4b3fe2f92c31898d2",
+signature: "1027453e6f747a5651d46662d7a568fd90ffe537",
+timestamp: 1529154373
+},
+state: 200
+}

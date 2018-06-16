@@ -116,35 +116,89 @@
 <head><meta charset=utf-8"utf-8"><meta name="pathname" content="bytecom_tetris"><meta http-equiv="Content-Type" content="text/html; charset=utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
 <title>高层叠墅.新的高度</title>
 
-<script>
-  var browser = {
-    versions: function () {
-      var u = navigator.userAgent,
-        app = navigator.appVersion;
-      return {
-        webKit: u.indexOf('AppleWebKit') > -1,
-        ios: !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/),
-        android: u.indexOf('Android') > -1 || u.indexOf('Linux') > -1,
-        weixin: u.indexOf('MicroMessenger') > -1,
-        txnews: u.indexOf('qqnews') > -1,
-        sinawb: u.indexOf('weibo') > -1,
-        mqq: u.indexOf('QQ') > -1
-      };
-    }(),
-    language: (navigator.browserLanguage || navigator.language).toLowerCase()
-  };
-  if(sessionStorage.lastname == "Smith"){
-
-  }else{
-    sessionStorage.lastname="Smith";
-    location.reload();
-  }
+<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>
+<script type="text/javascript">
+var imgUrl = 'http://cdn-app-qn.colorv.cn/img/test/f511d8de5f770e35b1e6ba681115e0476b0a9e807d7c3-Xle0kk_fw658_36cfdf43fbe1c09187046ba228acb0c9.jpg'; // 分享后展示的一张图片
+var lineLink = 'http://api.colorv.cn/pages/h5_demo'; // 点击分享后跳转的页面地址 可以写 var lineLin = location.href;
+var descContent = "这是我要分享的内容的描述"; // 分享后的描述信息
+var shareTitle = '彩视的分享，视频分享'; // 分享后的标题
+$.ajax({
+url: 'https://michael-z.github.io/xiaobingwangluo/gcds/js/wechat_js_sdk_conf.json',
+type: 'get',
+dataType: 'json',
+success: function(resp) {
+wx.config({
+debug: true, // 开启调试模式,调用的所有api的返回值会在客户端alert出来，若要查看传入的参数，可以在pc端打开，参数信息会通过log打出，仅在pc端时才会打印。
+appId: resp.data.appId, // 必填，公众号的唯一标识
+timestamp: resp.data.timestamp, // 必填，生成签名的时间戳
+nonceStr: resp.data.nonceStr, // 必填，生成签名的随机串
+signature: resp.data.signature, // 必填，签名，见附录1
+jsApiList: resp.data.jsApiList // 必填，需要使用的JS接口列表，所有JS接口列表见附录2
+});
+}
+});
+function shareFriend() {
+                                // 用户确认分享后执行的回调函数
+},
+})
+}
+function shareTimeline() {
+wx.onMenuShareTimeline({
+title: shareTitle, // 分享标题
+link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+imgUrl: imgUrl, // 分享图标
+success: function() {
+// 用户确认分享后执行的回调函数
+},
+})
+}
+function shareQQ() {
+wx.onMenuShareQQ({
+title: shareTitle, // 分享标题
+desc: descContent, // 分享描述
+link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+imgUrl: imgUrl, // 分享图标
+success: function() {
+// 用户确认分享后执行的回调函数
+},
+});
+}
+function shareQZone() {
+wx.onMenuShareQZone({
+title: shareTitle, // 分享标题
+desc: descContent, // 分享描述
+link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+imgUrl: imgUrl, // 分享图标
+success: function() {
+// 用户确认分享后执行的回调函数
+},
+});
+}
+function shareWeibo() {
+wx.onMenuShareWeibo({
+title: shareTitle, // 分享标题
+desc: descContent, // 分享描述
+link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+imgUrl: imgUrl, // 分享图标
+success: function() {
+// 用户确认分享后执行的回调函数
+},
+});
+}
+wx.ready(function(){
+// 发送给好友
+shareFriend();
+// 分享到朋友圈
+shareTimeline();
+// 分享到qq
+shareQQ();
+// 分享到QZone
+shareQZone();
+// 分享到weibo
+shareWeibo();
+});
 </script>
-
-<script src="./js/jquery-1.8.2.js"></script>
-<script src="https://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
-<script type="text/javascript" src="https://michael-z.github.io/xiaobingwangluo/gcds/js/wechat_auto.js"></script>
-<script>
+<!-- <script>
   // 分享授权
   jssdkConfig(null, false);
   wx.ready(function () {
@@ -155,7 +209,7 @@
     imgUrl: 'https://michael-z.github.io/xiaobingwangluo/gcds/images/2_01.gif'
     })
   });
-</script>
+</script> -->
 
 <head>
 <body>
