@@ -10,25 +10,31 @@
     var defaulAppid="wx8c6852df92fcfc6b";
     window.localUserInfo=window.localUserInfo||JSON.parse(localStorage.getItem(LOCAL_USERINFO));
     function timeNow(){return parseInt(Date.now()/1e3)}
-    function GetQueryString(name){var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)");
-    var r=window.location.search.substr(1).match(reg);
-    if(r!=null)return unescape(r[2]);
+    function GetQueryString(name){
+      var reg=new RegExp("(^|&)"+name+"=([^&]*)(&|$)");
+      var r=window.location.search.substr(1).match(reg);
+      if(r!=null)
+      return unescape(r[2]);
     return null
   }
   window.GetQueryString=window.GetQueryString||GetQueryString;
   function getToken(){return localStorage.getItem(TOKEN_HEADNAME)}
   function setToken(data){return localStorage.setItem(TOKEN_HEADNAME,data)}
-  function localToTpa(url){var tpaUrl="http://wechat.juzhen05.com/tpa_autho.html";var origin=url.split("http://")[1];origin=origin.replace(/\//g,"*");
+  function localToTpa(url){
+    var tpaUrl="http://wechat.juzhen05.com/tpa_autho.html";
+    var origin=url.split("http://")[1];
+    origin=origin.replace(/\//g,"*");
     if(origin.indexOf("?")>=0){
       origin=origin.split("?")[0];
-      origin=origin.split("index.html")[0]}
+      origin=origin.split("index.html")[0]
+    }
     if(url.indexOf("?")>=0){
       var arr1=url.split("?");
       var arr2=arr1[1].split("&");
       var num=0;
       for(var i=0;i<arr2.length;i++){
         if(arr2[i].indexOf("code")<0){
-          if(num===0
+          if(num===0)
             tpaUrl=tpaUrl+"?"+arr2[i]
           }else{
             tpaUrl=tpaUrl+"&"+arr2[i]}num++
