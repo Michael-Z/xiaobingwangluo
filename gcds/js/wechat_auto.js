@@ -34,7 +34,7 @@
       var num=0;
       for(var i=0;i<arr2.length;i++){
         if(arr2[i].indexOf("code")<0){
-          if(num===0)
+          if(num===0){
             tpaUrl=tpaUrl+"?"+arr2[i]
           }else{
             tpaUrl=tpaUrl+"&"+arr2[i]}num++
