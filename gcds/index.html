@@ -137,53 +137,58 @@ jsApiList: resp.data.jsApiList // 必填，需要使用的JS接口列表，所�
 });
 }
 });
-function shareFriend() {
-                                // 用户确认分享后执行的回调函数
-},
-})
+function shareFriend() {// 用户确认分享后执行的回调函数
+    wx.onMenuShareTimeline({
+    title: shareTitle, // 分享标题
+    link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    imgUrl: imgUrl, // 分享图标
+    success: function() {
+    // 用户确认分享后执行的回调函数
+    },
+    })
 }
 function shareTimeline() {
-wx.onMenuShareTimeline({
-title: shareTitle, // 分享标题
-link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-imgUrl: imgUrl, // 分享图标
-success: function() {
-// 用户确认分享后执行的回调函数
-},
-})
+    wx.onMenuShareTimeline({
+    title: shareTitle, // 分享标题
+    link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    imgUrl: imgUrl, // 分享图标
+    success: function() {
+    // 用户确认分享后执行的回调函数
+    },
+    })
 }
 function shareQQ() {
-wx.onMenuShareQQ({
-title: shareTitle, // 分享标题
-desc: descContent, // 分享描述
-link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-imgUrl: imgUrl, // 分享图标
-success: function() {
-// 用户确认分享后执行的回调函数
-},
-});
+    wx.onMenuShareQQ({
+    title: shareTitle, // 分享标题
+    desc: descContent, // 分享描述
+    link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    imgUrl: imgUrl, // 分享图标
+    success: function() {
+    // 用户确认分享后执行的回调函数
+    },
+    });
 }
 function shareQZone() {
-wx.onMenuShareQZone({
-title: shareTitle, // 分享标题
-desc: descContent, // 分享描述
-link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-imgUrl: imgUrl, // 分享图标
-success: function() {
-// 用户确认分享后执行的回调函数
-},
-});
+    wx.onMenuShareQZone({
+    title: shareTitle, // 分享标题
+    desc: descContent, // 分享描述
+    link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    imgUrl: imgUrl, // 分享图标
+    success: function() {
+    // 用户确认分享后执行的回调函数
+    },
+    });
 }
 function shareWeibo() {
-wx.onMenuShareWeibo({
-title: shareTitle, // 分享标题
-desc: descContent, // 分享描述
-link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
-imgUrl: imgUrl, // 分享图标
-success: function() {
-// 用户确认分享后执行的回调函数
-},
-});
+    wx.onMenuShareWeibo({
+    title: shareTitle, // 分享标题
+    desc: descContent, // 分享描述
+    link: lineLink, // 分享链接，该链接域名或路径必须与当前页面对应的公众号JS安全域名一致
+    imgUrl: imgUrl, // 分享图标
+    success: function() {
+    // 用户确认分享后执行的回调函数
+    },
+    });
 }
 wx.ready(function(){
 // 发送给好友
