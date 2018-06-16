@@ -5,7 +5,7 @@
     var LOCAL_USERINFO="localUserInfo";
     var CODE="code";
     var userinfo=null;
-    var serverUrl="http://api.juzhen05.com/";
+    var serverUrl="https://api.juzhen05.com/";
     var localAppid=null;
     var defaulAppid="wx8c6852df92fcfc6b";
     window.localUserInfo=window.localUserInfo||JSON.parse(localStorage.getItem(LOCAL_USERINFO));
